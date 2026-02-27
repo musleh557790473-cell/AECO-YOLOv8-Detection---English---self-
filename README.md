@@ -52,7 +52,7 @@ Option A — Full training run (~60 min on T4 GPU)
 # 3. Run all cells — the notebook will:
 #    - Install ultralytics
 #    - Download dataset from Roboflow
-#    - Train YOLOv8n for 50 epochs
+#    - Train YOLOv8n for 30 epochs
 #    - Evaluate and save metrics/plots
 Option B — Verification run (5 epochs) + load pre-trained weights
 # Cell in notebook handles this automatically.
@@ -68,7 +68,7 @@ Replace YOUR_USERNAME/YOUR_REPO with your actual GitHub path.
 ✅ Reproducibility Checklist
  Dataset version/link: Roboflow v3 — [link here]
  Model variant: yolov8n (nano)
- Epochs: 50 | Batch: 16 | imgsz: 640
+ Epochs: 30 | Batch: 16 | imgsz: 640
  Ultralytics version: ultralytics==8.2.0
 Full pip freeze: see docs/pip_freeze.txt
  Python version: 3.10
